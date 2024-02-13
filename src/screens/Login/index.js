@@ -55,14 +55,6 @@ const App = () => {
             >
                 Login
             </Text>
-            <View style={styles.cadastroView}>
-                <Text
-                    style={styles.cadastroText}
-                    onPress={() => console.log('Botão de cadastro')}
-                >
-                    Cadastre-se
-                </Text>
-            </View>
         </SafeAreaView >
     );
 };
@@ -110,13 +102,6 @@ const styles = StyleSheet.create({
         backgroundColor: "#61dafb",
         borderRadius: 20,
     },
-    cadastroView: {
-        marginTop: 25,
-        alignItems: 'center'
-    },
-    cadastroText: {
-        color: "#61dafb"
-    }
 });
 
 export default App;
