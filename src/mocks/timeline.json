@@ -1,0 +1,78 @@
+{
+    "cards": [
+        {
+            "cardId": 1,
+            "timeline": [
+                {
+                    "description": "Pedido realizado",
+                    "datatime": "2024-02-13 10:00:00"
+                },
+                {
+                    "description": "Agardando Pagamento"
+                },
+                {
+                    "description": "Pagamento Confirmado",
+                    "datatime": "2024-02-13 12:00:00"
+                },
+                {
+                    "description": "Entrega Agendada",
+                    "datatime": "2024-02-15 10:00:00"
+                },
+                {
+                    "description": "Entrega reagendado",
+                    "datatime": "2024-02-15 11:00:00"
+                },
+                {
+                    "description": "Pedido Entregue",
+                    "datatime": "2024-02-15 11:05:00"
+                },
+                {
+                    "description": "Retirada agendada",
+                    "datatime": "2024-02-17 11:00:00"
+                },
+                {
+                    "description": "Data de Retirada",
+                    "datatime": "2024-02-17 11:05:00"
+                }
+            ],
+            "closed": false
+        },
+        {
+            "cardId": 2,
+            "timeline": [
+                {
+                    "description": "Pedido realizado",
+                    "datatime": "2024-02-13 10:00:00"
+                },
+                {
+                    "description": "Agardando Pagamento"
+                },
+                {
+                    "description": "Pagamento Confirmado",
+                    "datatime": "2024-02-13 12:00:00"
+                },
+                {
+                    "description": "Entrega Agendada",
+                    "datatime": "2024-02-15 10:00:00"
+                },
+                {
+                    "description": "Entrega reagendado",
+                    "datatime": "2024-02-15 11:00:00"
+                },
+                {
+                    "description": "Pedido Entregue",
+                    "datatime": "2024-02-15 11:05:00"
+                },
+                {
+                    "description": "Retirada agendada",
+                    "datatime": "2024-02-17 11:00:00"
+                },
+                {
+                    "description": "Data de Retirada",
+                    "datatime": "2024-02-17 11:05:00"
+                }
+            ],
+            "closed": true
+        }
+    ]
+}
