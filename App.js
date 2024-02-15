@@ -1,22 +1,14 @@
 import React, { useState } from 'react';
 import {
-    StyleSheet, SafeAreaView, StatusBar, ScrollView,
+    StyleSheet, SafeAreaView, StatusBar, ScrollView, View,
 } from 'react-native';
 import timeline from './src/mocks/timeline.json'
 import Card from './src/components/Orders Card/Orders Card';
+import OrderCard from './src/screens/Orders/Orders Screen';
 
 const App = () => {
     return (
-        <ScrollView>
-            <SafeAreaView
-                style={styles.mainContainer}
-            >
-                <StatusBar
-                    backgroundColor="#61dafb"
-                />
-                <Card />
-            </SafeAreaView >
-        </ScrollView>
+        <OrderCard />
     );
 };
 

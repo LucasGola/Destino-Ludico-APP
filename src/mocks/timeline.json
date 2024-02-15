@@ -2,74 +2,76 @@
     "cards": [
         {
             "cardId": 1,
+            "jogo": "Catan",
             "timeline": [
                 {
-                    "description": "Pedido realizado",
-                    "datatime": "2024-02-13 10:00:00"
+                    "datetime": "2024-02-13 10:00:00",
+                    "description": "Pedido realizado"
                 },
                 {
                     "description": "Agardando Pagamento"
                 },
                 {
-                    "description": "Pagamento Confirmado",
-                    "datatime": "2024-02-13 12:00:00"
+                    "datetime": "2024-02-13 12:00:00",
+                    "description": "Pagamento Confirmado"
                 },
                 {
-                    "description": "Entrega Agendada",
-                    "datatime": "2024-02-15 10:00:00"
+                    "datetime": "2024-02-15 10:00:00",
+                    "description": "Entrega Agendada"
                 },
                 {
-                    "description": "Entrega reagendado",
-                    "datatime": "2024-02-15 11:00:00"
+                    "datetime": "2024-02-15 11:00:00",
+                    "description": "Entrega reagendado"
                 },
                 {
-                    "description": "Pedido Entregue",
-                    "datatime": "2024-02-15 11:05:00"
+                    "datetime": "2024-02-15 11:05:00",
+                    "description": "Pedido Entregue"
                 },
                 {
-                    "description": "Retirada agendada",
-                    "datatime": "2024-02-17 11:00:00"
+                    "datetime": "2024-02-17 11:00:00",
+                    "description": "Retirada agendada"
                 },
                 {
-                    "description": "Data de Retirada",
-                    "datatime": "2024-02-17 11:05:00"
+                    "datetime": "2024-02-17 11:05:00",
+                    "description": "Data de Retirada"
                 }
             ],
             "closed": false
         },
         {
             "cardId": 2,
+            "jogo": "Dixit",
             "timeline": [
                 {
-                    "description": "Pedido realizado",
-                    "datatime": "2024-02-13 10:00:00"
+                    "datetime": "2024-02-13 10:00:00",
+                    "description": "Pedido realizado"
                 },
                 {
                     "description": "Agardando Pagamento"
                 },
                 {
-                    "description": "Pagamento Confirmado",
-                    "datatime": "2024-02-13 12:00:00"
+                    "datetime": "2024-02-13 12:00:00",
+                    "description": "Pagamento Confirmado"
                 },
                 {
-                    "description": "Entrega Agendada",
-                    "datatime": "2024-02-15 10:00:00"
+                    "datetime": "2024-02-15 10:00:00",
+                    "description": "Entrega Agendada"
                 },
                 {
-                    "description": "Entrega reagendado",
-                    "datatime": "2024-02-15 11:00:00"
+                    "datetime": "2024-02-15 11:00:00",
+                    "description": "Entrega reagendado"
                 },
                 {
-                    "description": "Pedido Entregue",
-                    "datatime": "2024-02-15 11:05:00"
+                    "datetime": "2024-02-15 11:05:00",
+                    "description": "Pedido Entregue"
                 },
                 {
-                    "description": "Retirada agendada",
-                    "datatime": "2024-02-17 11:00:00"
+                    "datetime": "2024-02-17 11:00:00",
+                    "description": "Retirada agendada"
                 },
                 {
-                    "description": "Data de Retirada",
-                    "datatime": "2024-02-17 11:05:00"
+                    "datetime": "2024-02-17 11:05:00",
+                    "description": "Data de Retirada"
                 }
             ],
             "closed": true

@@ -89,12 +89,6 @@ const styles = StyleSheet.create({
     icon: {
         marginLeft: 10,
     },
-    heading: {
-        alignItems: 'center',
-        fontSize: 20,
-        color: 'green',
-        marginBottom: 20,
-    },
     button: {
         textAlign: 'center',
         fontSize: 15,
