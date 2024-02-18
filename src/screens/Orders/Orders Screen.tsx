@@ -12,10 +12,17 @@ const OrderCard = () => {
             />
             {timeline.cards.map((card) => {
                 return (
-                    <View style={styles.card}>
-                        <Image source={images[card.jogo]} style={styles.image} />
-                        <Text style={styles.cardTitle}>Pedido Nº: {card.cardId}</Text>
+                    <View>
+                        <View style={styles.card}>
+                            <Image source={images[card.jogo]} style={styles.image} />
+                            <Text style={styles.cardTitle}>Pedido Nº: {card.cardId}</Text>
+                        </View>
+                        <View>
+                            <Text>{card.timeline[card.timeline.length - 1].description}</Text>
+                            <Text>{card.timeline[card.timeline.length - 1].datetime}</Text>
+                        </View>
                     </View>
+
                 )
             })}
         </SafeAreaView>
